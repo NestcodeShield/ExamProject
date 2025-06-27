@@ -1,5 +1,5 @@
 .Header {
-  background-color: #142c46; /* Темно-синий фон */
+  background-color: #142c46;
   padding: 1rem 2rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -40,7 +40,7 @@ nav img {
 }
 
 .header-liss a:hover {
-  color: #fca311; /* оранжевый при наведении */
+  color: #fca311; 
 }
 
 .nav-item {

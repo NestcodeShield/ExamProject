@@ -15,7 +15,7 @@ function App() {
   return (
     
    <BrowserRouter>
-      <Header /> {/* Показывается на всех страницах */}
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
