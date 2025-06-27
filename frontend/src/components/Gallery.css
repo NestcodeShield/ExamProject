@@ -1,0 +1,69 @@
+.Gallery {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.Gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #0d1b2a;
+  border-bottom: 2px solid #0d1b2a;
+  padding-bottom: 0.3rem;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-buttons button {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-size: 0.95rem;
+}
+
+.filter-buttons button:hover {
+  background-color: #e0e0e0;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-item {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.gallery-item p {
+  margin: 0.3rem 0;
+  font-weight: 500;
+  color: #444;
+}
+
+.gallery-item small {
+  color: #888;
+  font-size: 0.85rem;
+}

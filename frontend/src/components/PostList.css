@@ -1,0 +1,58 @@
+.PostList {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+  height: 100vh;
+}
+
+.list-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.post-list-item {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  transition-duration: 0.3s;
+}
+
+.post-list-item:hover {
+  transform:scale(1.02);
+  box-shadow: 0 0 10px rgba(102, 102, 102, 0.515);
+}
+
+.post-list-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 0.7rem;
+}
+
+.post-list-item span {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  color: #0d1b2a;
+}
+
+.post-list-item p {
+  flex-grow: 1;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.post-list-item small {
+  color: #888;
+  font-size: 0.8rem;
+}
+

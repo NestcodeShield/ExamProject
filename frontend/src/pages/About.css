@@ -1,0 +1,129 @@
+.About {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+
+.About h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #0d1b2a;
+  border-bottom: 2px solid #0d1b2a;
+  padding-bottom: 0.3rem;
+}
+
+.our-team {
+  background-color: #f9f9f9;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.our-team p {
+  margin-bottom: 1rem;
+  color: #4b4b4b;
+}
+
+.our-team ul {
+  list-style: none;
+  padding-left: 0;
+  color: #555;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.our-team ul p {
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: #0d1b2a;
+}
+
+.our-team li {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.our-team li:last-child {
+  border-bottom: none;
+}
+
+.our-team li span {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #0d1b2a;
+}
+
+.portfolio-gallery {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.portfolio-item {
+  width: 280px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  overflow: hidden;
+  text-align: center;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.portfolio-item figcaption {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.testimonials h2 {
+  margin-bottom: 1rem;
+  color: #0d1b2a;
+}
+
+.testimonial-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.testimonial {
+  background: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.testimonial-text {
+  font-style: italic;
+  color: #4b4b4b;
+  margin-bottom: 0.7rem;
+}
+
+.testimonial-author {
+  font-weight: 600;
+  color: #0d1b2a;
+  text-align: right;
+  font-size: 0.9rem;
+}
